@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="txtString" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtLetter" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnLetterFound" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" pref="592" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="txtStringEntered" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                              <Component id="btnFourToSix" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txtValueEnteredLength" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnLength" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblLength" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="txtEnteredLowercase" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                      <Component id="btnToUppercase" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblUppercase" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txtEnteredFourth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                      <Component id="btnFourthSpot" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblFourthSpot" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txtFirstNumberEntered" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtSecondNumberEntered" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="btnIdentical" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblIdentical" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblFourToSix" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblLetterFound" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel4" min="-2" pref="514" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="589" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" pref="540" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="0" pref="611" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txtStringWithA" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                      <Component id="btnAToX" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblAToX" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="16" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValueEnteredLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblLength" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" pref="16" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtEnteredLowercase" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnToUppercase" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblUppercase" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtEnteredFourth" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFourthSpot" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFourthSpot" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtFirstNumberEntered" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSecondNumberEntered" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnIdentical" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblIdentical" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtString" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtLetter" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLetterFound" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblLetterFound" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtStringEntered" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFourToSix" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFourToSix" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtStringWithA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAToX" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAToX" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtValueEnteredLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type here"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtValueEnteredLengthActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Super String Software"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Find Length"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLengthActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="........."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string, the program will output the number of characters in the string."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string in lowercase, the program will output the characters in all capital letters. "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEnteredLowercase">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type here"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEnteredLowercaseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnToUppercase">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ALL CAPS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnToUppercaseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUppercase">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="........"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string, the program will output the character at the 4th spot. "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEnteredFourth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFourthSpot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fourth Spot "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFourthSpotActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFourthSpot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="........."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter two strings, the program will output whether or not they are identical."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFirstNumberEntered">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSecondNumberEntered">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIdentical">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Identical?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIdenticalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIdentical">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".........."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string and a letter, the program will output if the letter is in the string. "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtString">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="String Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLetter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Letter Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLetterFound">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Letter Found?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLetterFoundActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLetterFound">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".........."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a String that is at least 8 characters long. The program will output characters 4 to 6."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtStringEntered">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="String Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFourToSix">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Char 4 to 6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFourToSixActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFourToSix">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="........."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a string that contains at least one &quot;a&quot;, the program will replace all of the &quot;a&apos;&apos;&apos;s "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtStringWithA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="String Here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAToX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Replace &quot;a&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAToXActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAToX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="........."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
