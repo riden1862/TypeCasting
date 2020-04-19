@@ -59,7 +59,7 @@ public class MyFirstSubroutineProgram {
             }
             //use an if statement to output the correct answer 
             if (choice ==4){
-                //take the chosenValues
+                //take the singleValue
                 singleValue();
                 //print the answer to use user 
                 System.out.println("The square root is " +sqrtAndOut(num3));
@@ -87,7 +87,7 @@ public class MyFirstSubroutineProgram {
             public static void singleValue(){
                 //prompt the user for ONLY number it'll use 
                 System.out.println("Enter the number you would like to use");
-                //number is taken from the scanner, stroed as an integer 
+                //number is taken from the scanner, stored as an integer 
                 num3 = keyedInput.nextInt();
             }
                 //now create the subroutine perimeterAndOut
